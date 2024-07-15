@@ -1,0 +1,111 @@
+body {
+    background-color: #eea990;
+    box-sizing: border-box;
+
+    padding: 30px;
+    margin: 0px;
+}
+
+body, 
+.border-1, .border-2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.border-1 {
+    background-color: #f6e0b5;
+    border: 5px solid #aa6f73;
+
+    height: 800px;
+    width: 500px;
+}
+
+.border-2 {
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+    border: 5px solid #aa6f73;
+    background-repeat: repeat;
+}
+
+.border-2, .floor {
+    height: 770px;
+    width: 470px;
+}
+
+.floor {
+    background-image: url(Img/Floor.png);
+    background-repeat: repeat;
+    
+    padding: 10px;
+    height: 750px;
+    width: 450px;
+}
+
+.tables-1, 
+.tables-2, .tables-3, 
+.tables-4, .tables-5, 
+.tables-6, .tables-7 {
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+
+    padding: 10px;
+    gap: 40px;
+}
+
+.tables {
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    background-color: #b7825f;
+    border: 3px solid black;
+    border-radius: 10px;
+
+    height: 45px;
+    width: 45px;
+}
+
+.teacher-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    margin-top: 60px;
+    height: 200px;
+    width: 450px;
+}
+
+.front {
+    box-shadow: 2px 2px 7px 7px rgba(0,0,0,0.5);
+    background-image: url(Img/Front.png);
+    background-repeat: repeat;
+    border-radius: 10px;
+    
+    margin-top: 50px;
+    height: 130px;
+    width: 300px;   
+}
+
+.table {
+    box-shadow: 2px 2px 10px 8px black;
+    background-color: burlywood;
+    border-radius: 5px;
+    
+    margin: 30px auto;
+    height: 50px;
+    width: 100px;
+}
+
+.whiteboard {
+    box-shadow: 0px -3px 2px 2px rgba(0,0,0,0.5);
+    background-color: #533d28;
+    border-radius: 3px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    position: relative;
+    height: 10px;
+    width: 330px;
+    left: -15px;
+    top: 30px;
+}
